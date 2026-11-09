@@ -1,6 +1,6 @@
 ## SUSE (Multi-Liux) Manager reposync-watcher tool
 <p>A bash script to streamline watching and debugging repo sync in SUSE Manager. Compatible with 5.x and newer.</p>
-<p>How to use: copy the reposync-watch.sh file to the SUSE Manager **host** (not the uyuni-server container).<br>
+<p>How to use: copy the reposync-watch.sh file to the SUSE Manager **host** (not the _uyuni-server_ container).<br>
 Make sure it's executable<br>
 <code> chmod +x reposync-watch.sh</code><br>
 and run by typing<br>
