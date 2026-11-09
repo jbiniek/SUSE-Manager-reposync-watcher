@@ -7,7 +7,7 @@ A bash script to streamline watching and debugging repo sync in SUSE Manager. Co
 - Shows you the exact command to kill the current sync process in case it gets stuck (server will then automatically move on to the next repo in the queue, if there are any).
 
 There are a few "quality of life" features as well:
-- If it encounters any error entries it sticks them at the top so they don't get pushed out by rapidly coming new messages.
+- If it encounters any error entries it sticks them at the top (up to 10 most recent) so they don't get pushed out by rapidly coming new messages.
 - Has a simple, color-coded % disk full indicator that checks the container volume usage.
 - Has an activity indicator so that you can tell that the script is working even if messages stop coming for a while.
 
